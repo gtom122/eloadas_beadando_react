@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import './MetronomStopper.css'; // 💡 Ne felejtsd el importálni a CSS-t!
+import './MetronomStopper.css'; 
 
 export default function Metronom() {
   const [bpm, setBpm] = useState(120); // Ütem per perc

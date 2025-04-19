@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './MetronomStopper.css'; // Ugyanazt a CSS-t használjuk!
+import './MetronomStopper.css'; 
 
 function Stopper() {
   const [seconds, setSeconds] = useState(0);

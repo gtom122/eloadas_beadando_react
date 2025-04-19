@@ -57,22 +57,22 @@
   }
   
   button.start {
-    background-color: #22c55e; /* zöld */
+    background-color: #22c55e; 
     color: white;
   }
   
   button.stop {
-    background-color: #ef4444; /* piros */
+    background-color: #ef4444; 
     color: white;
   }
   
   button.reset {
-    background-color: #3b82f6; /* kék */
+    background-color: #3b82f6; 
     color: white;
   }
   
   button.lap {
-    background-color: #f59e0b; /* narancs */
+    background-color: #f59e0b; 
     color: white;
   }
   
