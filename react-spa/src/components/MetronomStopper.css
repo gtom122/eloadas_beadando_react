@@ -1,0 +1,89 @@
+.container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #1e1e2f;
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    margin-right: 0.5rem;
+  }
+  
+  input[type="number"] {
+    width: 80px;
+    padding: 0.4rem;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    margin: 1.5rem auto;
+    border-radius: 50%;
+    background-color: lightgray;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .circle.green {
+    background-color: limegreen;
+    transform: scale(1.1);
+  }
+  
+  button {
+    margin: 0.3rem;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  button.start {
+    background-color: #22c55e; /* zöld */
+    color: white;
+  }
+  
+  button.stop {
+    background-color: #ef4444; /* piros */
+    color: white;
+  }
+  
+  button.reset {
+    background-color: #3b82f6; /* kék */
+    color: white;
+  }
+  
+  button.lap {
+    background-color: #f59e0b; /* narancs */
+    color: white;
+  }
+  
+  .lap-list {
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  .timer-msg {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #f87171;
+  }
+  
